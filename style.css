@@ -257,19 +257,6 @@ main {
     background-color: #2d3662;
 }
 
-summary {
-    background-color: #4b568b;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 0.2rem;
-    width: 8rem;
-    display: flex;
-    justify-content: center;
-    /* user-select: none; */
-    /* border-radius: 4px; */
-    z-index: 90;
-    border-bottom-left-radius: 20px;
-}
 
 summary:hover {
     background-color: #6883df;
@@ -701,3 +688,16 @@ footer {
 }
 
 
+summary {
+    background-color: #4b568b;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0.2rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    /* user-select: none; */
+    /* border-radius: 4px; */
+    z-index: 90;
+    border-bottom-left-radius: 20px;
+}

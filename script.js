@@ -13,6 +13,7 @@ let summarySelector = () => {
         document.getElementById('summary').innerHTML = 'Show more +'
     }
 }
+
 document.getElementById('summary').addEventListener('click', summarySelector)
 
 let projectSelector = document.querySelectorAll('.project');
